@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* Global Styles
+----------------------------*/
+body {
+	background: #EDF2F4
+}
+a {
+	color: #EF233C;
+}
+a:hover {
+	text-decoration: none
+}
+
+/* Header and Footer
+----------------------------*/
+header, footer {
+	background: #2B2D42;
+	color: #8D99AE;
+}
+body header img {
+    max-height: 300px;
+    height: 10%;
+}
+
+header h1, header h2 {
+	color: #EDF2F4
+}
+
+/* Work Experience
+----------------------------*/
+.work {
+	background: #EDF2F4
+}
+
+/* Education
+----------------------------*/
+.education {
+	background: #BD99AE
+}
