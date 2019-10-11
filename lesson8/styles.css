@@ -1,0 +1,91 @@
+@charset "utf-8";
+/* Global Styles
+----------------------------*/
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+	font-family: 'Montserrat', sans-serif;
+	background: #EDF2F4;
+	margin: 0;
+}
+h1, h2 {
+	font-family: 'Comfortaa', cursive;
+}
+h1 {
+    font-size: 80px;
+    text-shadow: 3px 3px #000000;
+}
+h2 {
+    font-size: 40px;
+    font-weight: 300;
+	margin-top: 0;
+}
+a {
+	color: #EF233C;
+}
+a:hover {
+	text-decoration: none
+}
+.content-wrap {
+	max-width: 950px;
+	margin: 0 auto;
+	padding: 50px;
+	overflow: auto;
+}
+.col-narrow {
+	width: 30%;
+	float: left;
+}
+.col-wide {
+	width: 70%;
+	float: left;
+	padding-left: 20px;
+	min-height: 175px;
+}
+
+/* Header and Footer
+----------------------------*/
+header, footer {
+	background: #2B2D42;
+	color: #8D99AE;
+}
+
+/* header */
+.profile-img {
+    border-radius: 50%;
+    -webkit-box-shadow: 2px 2px 20px #000000;
+    box-shadow: 2px 2px 20px #000000;
+}
+header h1, header h2 {
+	color: #EDF2F4;
+	margin: 0;
+	text-align: center;
+}
+/* footer */
+footer {
+	text-align: center;
+}
+.contact-info a {
+	/*background: white;*/
+	padding: 12px;
+	display: inline-block;
+}
+
+/* Work Experience
+----------------------------*/
+.work {
+	background: #EDF2F4
+}
+/* Education
+----------------------------*/
+.education {
+	background: #BD99AE
+}
+header p {
+	line-height: 1.3;
+}
